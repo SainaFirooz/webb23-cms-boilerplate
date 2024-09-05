@@ -27,7 +27,7 @@ const Footer = ({ blok }) => {
           </div>
         </div>
 
-        <div className="mt-8 text-center text-sm text-gray-500">
+        <div className="mt-8  text-center text-sm text-gray-500">
           <p>
             &copy; {new Date().getFullYear()} Your Company. All rights reserved.
           </p>
