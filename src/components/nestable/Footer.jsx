@@ -1,5 +1,8 @@
 const Footer = ({ blok }) => {
   const { footer_text, footer_links } = blok?.content;
+  if (!blok || !blok.content) {
+    return null;
+  }
 
   return (
     <footer className="bg-custombg shadow-md py-8 text-gray-600">
