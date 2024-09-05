@@ -1,5 +1,5 @@
 const Header = ({ blok }) => {
-  const { logo, header_links } = blok.content;
+  const { logo, header_links } = blok?.content || {};
 
   return (
     <header className="bg-custombg shadow-md">
